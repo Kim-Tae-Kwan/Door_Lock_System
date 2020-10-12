@@ -23,26 +23,7 @@ Atmega128, 키패드, 모터, LCD, 터미널, 버튼 등을 활용한 도어락 
 ## Getting Started
 To use MQTT-C you first instantiate a `struct mqtt_client` and initialize it by calling
 @ref mqtt_init.
-```c
-    struct mqtt_client client; /* instantiate the client */
-    mqtt_init(&client, ...);   /* initialize the client */
-```
-Once your client is initialized you need to connect to an MQTT broker.
-```c
-    mqtt_connect(&client, ...); /* send a connection request to the broker. */
-```
-At this point the client is ready to use! For example, we can subscribe to a topic like so:
-```c
-    /* subscribe to "toaster/temperature" with a max QoS level of 0 */
-    mqtt_subscribe(&client, "toaster/temperature", 0);
-```
-And we can publish to a topic like so:
-```c
-    /* publish coffee temperature with a QoS level of 1 */
-    int temperature = 67;
-    mqtt_publish(&client, "coffee/temperature", &temperature, sizeof(int), MQTT_PUBLISH_QOS_1);
-```
-Those are the basics! From here the [examples](https://github.com/LiamBindle/MQTT-C/tree/master/examples) and [API documentation](https://liambindle.ca/MQTT-C/group__api.html) are good places to get started.
+
 
 
 
