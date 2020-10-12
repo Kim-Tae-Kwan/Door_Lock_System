@@ -1,4 +1,4 @@
-# Door Lock System
+# Door Lock System ![QR](/readmeFile/DoorLock_QRCode.png)
 
 Atmega128, 키패드, 모터, LCD, 터미널, 버튼 등을 활용한 도어락 시스템
 
