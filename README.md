@@ -20,6 +20,9 @@ Atmega128, 키패드, 모터, LCD, 터미널, 버튼 등을 활용한 도어락 
 ****
 ![Proteus](/readmeFile/DoorLock_Main.png) 
 
+#### A note from the author
+It's been great to hear about all the places MQTT-C is being used! Please don't hesitate
+to get in touch with me or submit issues on GitHub!
 
 
 
