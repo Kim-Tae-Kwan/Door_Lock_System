@@ -15,6 +15,9 @@ Atmega128, 키패드, 모터, LCD, 터미널, 버튼 등을 활용한 도어락 
 
 ![QR](/readmeFile/DoorLock_QRCode.png)
 
+## 하드웨어
+
+![Proteus](/readmeFile/DoorLock_Hardware.png)
 
 ## Proteus
 
